@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./Images/Login&register.jpg" type="icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Kablammo&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Kablammo&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/all.css">
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/Style.css">
+    <title>Register</title>
+</head>
+<body class="d-flex justify-content-center align-items-center">
+    <div class="container shadow border border-5 border-primary-subtle rounded-5 custom-blur col-lg-6">
+           <h1 class="text-center mt-4 text-light font-orbitron coolH1"><span>S</span><span>m</span><span>a</span><span>r</span><span>t</span> <span>L</span><span>o</span><span>g</span><span>i</span><span>n</span> <span>S</span><span>y</span><span>s</span><span>t</span><span>e</span><span>m</span></h1>
+           <form id="regForm">
+              <div class="mb-3 form-floating w-75 m-auto mt-4">
+                <input oninput="" type="text" class="form-control" id="userName" placeholder="">
+                <label for="userName" class="form-label"><i class="fa-solid fa-user"></i> Name</label>
+              </div>
+               <div class="mb-3 form-floating w-75 m-auto mt-4">
+                   <input oninput="" type="email" class="form-control" id="userEmail" placeholder="">
+                   <label for="userEmail" class="form-label"><i class="fa-solid fa-at"></i> Email</label>
+                 </div>
+                 <div class="mb-3 form-floating w-75 m-auto mt-4">
+                   <input oninput="" type="password" class="form-control" id="userPassword" placeholder="">
+                   <label for="userPassword" class="form-label"><i class="fa-solid fa-key"></i> Password</label>
+                 </div>
+                 <p id="message" class="text-center h6 font-orbitron"></p>
+                 <div class="text-center pb-4">
+                   <button id="signUpButton" type="button" onclick="registration()" class="btn btn-outline-primary w-25" ><i class="fa-solid fa-right-to-bracket"></i> Sign up</button>
+                 </div>
+                </form>
+                
+           <div class="d-flex justify-content-center text-white">
+               <p>You have an account? <a href="./index.html" class="hover-underline">Sign in</a></p>
+               
+           </div>
+    </div>
+
+   <script src="./JS/bootstrap.bundle.min.js"></script>
+   <script src="./JS/Index.js"></script>
+</body> 
+</html>
