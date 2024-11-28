@@ -67,7 +67,7 @@ function registration(){
         registerMessage.classList.remove('text-warning')
         registerMessage.classList.add('text-success');
         registerMessage.innerHTML="Success";
-        document.location='../index.html';
+        document.location='./index.html';
     }
     
 }
@@ -99,7 +99,7 @@ function login() {
         if (allUsers[i].userEmail == email && allUsers[i].userPassword == password) {
             Isvalid = true;
             localStorage.setItem('userName', allUsers[i].userName);   //to save user name in local storage to use it in home page
-             window.location = './Home.html'; 
+            document.location = './Home.html'; 
             break;
         }
     }
